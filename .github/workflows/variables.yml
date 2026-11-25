@@ -16,6 +16,9 @@ jobs:
     steps:
       - name: "Say Hello Mona it's Monday"
         run: echo "$Greeting $First_Name. Today is $DAY_OF_WEEK!"
+        
+      - name: "Tell the project name"
+        run: echo "Your project ID is ${{vars.PROJECT_ID}}"
         # Step level variable
         env:
           First_Name: Mona
