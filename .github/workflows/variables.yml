@@ -20,5 +20,5 @@ jobs:
       - name: "Tell the project name"
         run: echo "Your project ID is ${{vars.PROJECT_ID}}"
         # Step level variable
-        env:
-          First_Name: Mona
+        # env:
+        #   First_Name: Mona
